@@ -13,7 +13,7 @@ namespace Lotfy
         [HideInInspector] public float BackwordAngelMin = 180f;
         [HideInInspector] public float BackwordAngelMax = 360f;
 
-        public Vector3 Line;
+        [HideInInspector] public Vector3 Line;
         //public float speedPerSec;
         [Range(-1, 1)] public int StartRotationDirction;
         [HideInInspector] public bool FakeRotationSuccess = false;
